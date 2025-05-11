@@ -117,17 +117,17 @@ function App() {
               <h1 className='text-[6rem] leading-none -ml-29'>auto</h1>
             </div>
               <img className='absolute character -bottom-[150%] h-[570px] left-1/2 scale-[3] rotate-[-20deg] -translate-x-1/2' src="./girlbg.png" alt="" />
-              
-            </div>
-            <div className='btmbar text-white absolute bottom-0 left-0 w-full py-10 px-10 bg-gradient-to-t from-black to-transparent'>
-                <div className='flex gap-4 items-center'>
+              <div className='btmbar text-white absolute bottom-0 left-0 w-full py-10 px-10 bg-gradient-to-t from-black to-transparent'>
+               <a href="#seconddiv"> <div className='flex gap-4 items-center'>
                 <i className="text-2xl ri-arrow-down-line"></i>
                 <h3 className='text-xl font-[Helvetica]'>Scroll Down</h3>
-                </div>
+                </div></a>
                 <img className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[55px]' src="./ps5.png" alt="" />
             </div>
+            </div>
+          
           </div>
-          <div className="w-full h-screen flex items-center justify-center  bg-black ">
+          <div className="w-full h-screen flex items-center justify-center  bg-black " id='seconddiv'>
             <div className="cntnr flex text-white w-full h-[100%]  ">
             <div className='limg relative w-1/2 h-full'>
               <img src="./imag.png" className='h-[550px]  absolute top-1/2 left-1/2 -translate-x-1/2 scale-[1.1] -translate-y-1/2' alt="" />
